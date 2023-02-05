@@ -305,7 +305,7 @@
     margin-bottom: 10%;
 }
 .Content__Estudios{
-    width: 90%;
+    width: 100%;
 }
 .card{
     padding: 5%;
@@ -425,6 +425,11 @@
             padding: 0;
             color: #4c4d4d;  
         }
+
+        .Logo-redes2{
+            display: flex;
+            justify-content: space-around;
+        }
         .Logo-redes{
             display: flex;
             justify-content: space-around;
@@ -511,17 +516,17 @@
     
     .Menu-Vertical{
         position: absolute;
-        background: #000000f6;;
+        background: #000000e4;;
         z-index: 5;
         align-items: center;
         min-width: auto;
         width: 100%;
         height: auto;}
         .Perfil{
+            background-color: #111418;
             width: 50%;
             height: auto;
             display: flex;
-            padding: 0;
             align-items: center;}
                 .Perfil__thumb{
                     display: none;}
@@ -531,6 +536,7 @@
             font-size: 22px;}
 
         .Logo-redes{
+            background-color: #111418;
             height: auto;
             width: 50%;
             display: flex;
@@ -548,7 +554,6 @@
         .Menu-list{
             display: none;
             order: 3;
-            background-color:#11141815;
             text-align: initial;
             height: auto;
             padding-top: 20px;}
@@ -583,5 +588,52 @@
                 z-index: 3;
                 font-size: 36px;
             }
+
+            .Servicio__skill{
+                margin: 4% 0;
+            }
+            .Skill{
+                width: 100%;
+                margin: 6% 0;
+            }
+            .contacto-items{
+                text-align: center;
+                width: 60%;
+                margin: 10% auto;
+                order: 2;
+            }
+
+            .Formulario{
+                width: 90%;
+            }
+            .for__nombre{
+                width: 100%;
+                margin: 5px 0;
+            }
+
+            .for__correo{
+                width: 100%;
+                margin: 5px 0;
+            }
+            .for__mensaje{
+                margin: 5px 0;
+            }
+
+
+            .contacto__skills{
+                justify-content: center;
+            }
+            .Logo-redes2{
+                margin-top: 20px;
+            }
+            .footer{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
 }
 
+/*Clases Dinamicas*/
+
+.ActiveList{
+    display: flex;
+}
