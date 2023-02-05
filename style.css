@@ -296,8 +296,8 @@
 }
 
 .Resumen-Estudios{
-    width:45%;
-    min-width:420px;
+    width:100%;
+    max-width:480px;
 }
 .Estudios__title{
     font-weight: 600;
@@ -305,7 +305,7 @@
     margin-bottom: 10%;
 }
 .Content__Estudios{
-    width: 100%;
+    width: 90%;
 }
 .card{
     padding: 5%;
