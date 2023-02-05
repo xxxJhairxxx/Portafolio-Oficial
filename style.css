@@ -11,8 +11,10 @@
     box-shadow: none;
     font-family: 'Poppins', sans-serif;
 }
-.Content{
+.Content-Main{
     display: flex;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .Menu-Vertical{
@@ -102,6 +104,16 @@
     height: 100vh;
     overflow-y: scroll;
 }
+
+.filter::-webkit-scrollbar{
+    width: 5px;
+    height: 0;
+    background: #fff;
+}
+.filter::-webkit-scrollbar-thumb{
+    background-color:#1BAA80;
+}
+
     .header{
         display: flex;
         justify-content: center;
@@ -491,8 +503,67 @@
         justify-content: space-between;
     }
 
-@media screen(max-width: 600px){
-    .Contacto{
-        background: red;
+@media (max-width: 800px){
+    .Content-Main{
+        flex-wrap: wrap;
+        position: relative;
     }
+    
+    .Menu-Vertical{
+        position: absolute;
+        background: #000000f6;;
+        z-index: 5;
+        align-items: center;
+        min-width: auto;
+        width: 100%;
+        height: auto;}
+        .Perfil{
+            width: 50%;
+            height: auto;
+            display: flex;
+            padding: 0;
+            align-items: center;}
+                .Perfil__thumb{
+                    display: none;}
+        .Perfil__nombre{
+            margin: 0;
+            align-items: center;
+            font-size: 22px;}
+
+        .Logo-redes{
+            height: auto;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: end;}
+            .red{
+                font-size: 15px;}
+            .btn-menu{
+                margin: 10px;
+                margin-right: 15px;
+                font-size: 30px;
+                color: #fff;
+                cursor: pointer;}
+
+        .Menu-list{
+            display: none;
+            order: 3;
+            background-color:#11141815;
+            text-align: initial;
+            height: auto;
+            padding-top: 20px;}
+        
+            .Menu__item{
+                padding-left: 20px;
+                height: 50px;
+            }
+            .subline::before{
+                content: '';
+                position: absolute;
+                margin-top: 35px;
+                height: 1px;
+                width: 90%;
+                background-color: #454545;
+            }
 }
+
