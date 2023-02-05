@@ -271,7 +271,7 @@
     }
 
     .Servicio__skill__thumb{
-        width:200px;
+        padding: 0 20px;
         text-align: center;
     }
     .Servicio__logo{
