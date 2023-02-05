@@ -373,4 +373,125 @@ body{
 .Contacto{
     padding: 10% 0;
     background-color: #fff;
+    width:100%;
 }
+
+.Content-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+    .contacto-items{
+        width: 26%;
+        line-height: 30px;
+    }
+        .contacto__title{
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #4c4d4d;  
+        }
+        .contacto__text{
+            font-size: 16px;
+            color: #4c4d4d; 
+            margin-bottom: 10px;   
+        }
+
+        .contacto__skills{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 10px;
+            list-style: none;
+            font-size: 16px;
+            color: #4c4d4d;   
+        }
+        .contacto__items{
+            margin: 5px 0;
+        }
+        .sigueme{
+            margin-top: 15px;
+            padding: 0;
+            color: #4c4d4d;  
+        }
+        .Logo-redes{
+            display: flex;
+            justify-content: space-around;
+        }
+        .conx{
+            font-size: 25px;
+            color: #4c4d4d;  
+            cursor: pointer;
+        }
+        .bi-github:hover{
+            color: #000;
+        }
+    .Formulario{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .for__title{
+        width: 100%;
+        padding: 0;
+        color: #181818;
+        font-weight: 500; 
+        margin-bottom: 10px; 
+    }
+
+    .for__nombre{
+        width: 44%;
+        padding: 2%;
+        margin-right: auto;
+        border-radius: 10px;
+        border: 1px solid #aaaaaa;
+        font-size: 16px;
+    }
+    .for__correo{
+        font-size: 16px;
+        width: 44%;
+        padding: 2%;
+        border-radius: 10px;
+        border: 1px solid #aaaaaa;
+    }
+    .for__mensaje{
+        font-size: 16px;
+        width: 96%;
+        padding: 2%;
+        margin-top: 2%;
+        border-radius: 10px;
+        border: 1px solid #aaaaaa;
+    }
+
+    .btn-correo{
+        background-color: #20C983;
+        color: #fff;
+        border: none;
+        padding: 3% 4%;
+        margin: 2%;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+    }
+    .btn-correo:hover{
+        background: #1BAA80;
+    }
+
+    .for-border:focus{
+        border-color:#20C983;
+    }
+    
+    .footer{
+        background: #fff;
+        padding: 5%;
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__copy{
+    }
+
