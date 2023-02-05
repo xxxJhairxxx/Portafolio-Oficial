@@ -589,6 +589,18 @@
                 font-size: 36px;
             }
 
+            .About__description{
+                width: 100%;
+                text-align: center;
+            }
+            .About-details{
+                width: 100%;
+            }
+            .About-Skills{
+                justify-content: space-evenly;
+            }
+            
+
             .Servicio__skill{
                 margin: 4% 0;
             }
