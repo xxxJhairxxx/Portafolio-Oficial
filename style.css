@@ -565,5 +565,23 @@
                 width: 90%;
                 background-color: #454545;
             }
+        
+
+            .Modulo__titulo{
+                width: 100%;
+                height: 35vh;
+            }
+            .Modulo__titulo-back{
+                font-size: 300%;
+                width: 100%;
+                color: #fbebd1;
+                text-align: center;
+                z-index: 1;
+            }
+    
+            .Modulo__text{
+                z-index: 3;
+                font-size: 36px;
+            }
 }
 
