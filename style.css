@@ -11,9 +11,8 @@
     box-shadow: none;
     font-family: 'Poppins', sans-serif;
 }
-body{
+.Content{
     display: flex;
-    z-index: -1;
 }
 
 .Menu-Vertical{
@@ -492,6 +491,8 @@ body{
         justify-content: space-between;
     }
 
-    .footer__copy{
+@media screen(max-width: 600px){
+    .Contacto{
+        background: red;
     }
-
+}
