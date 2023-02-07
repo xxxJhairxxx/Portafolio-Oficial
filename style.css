@@ -363,10 +363,25 @@
     overflow: hidden;
 }
 .porcentaje__bar{
-    width: 65%;
     background-color: #20C983;
     height: 10px;
 }
+    .html{width: 98%;}
+    .js{width: 90%;}
+    .php{width: 65%;}
+    .sql{width: 75%;}
+    .git{width: 65%;}
+    .sass{width: 60%;}
+    .boot{width: 80%;}
+    .mui{width: 75%;}
+    .jq{width: 75%;}
+    .type{width: 80%;}
+    .ecma{width: 80%;}
+    .vue{width: 70%;}
+    .react{width: 90%;}
+    .node{width: 45%;}
+    .laravel{width: 80%;}
+    .codeigniter{width: 80%;}
 .btn{
     margin: auto;
     width:  145px;
@@ -579,7 +594,7 @@
             .Modulo__titulo-back{
                 font-size: 38px;
                 width: 100%;
-                color: #dee3e4ab;
+                color: #dadadaab;
                 text-align: center;
                 z-index: 1;
             }
